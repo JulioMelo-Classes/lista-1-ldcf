@@ -2,13 +2,13 @@
 
 Preencha os dados abaixo para identificar a autoria do trabalho.
 
-- Nome: *\<insira seu nome aqui>*
-- Email: *\<insira seu email aqui>*
-- Turma: *\<insira sua turma aqui>*
+- Nome: Lucas da Costa Fontes
+- Email: lucas.fontes.700@gmail.com
+- Turma: IMD 00030-T01
 
 # Questões Finalizadas
 
-- [ ] Negativos 5
+- [x] Negativos 5
 - [ ] Soma Vizinhos
 - [ ] Intervalos
 - [ ] Fibonacci
