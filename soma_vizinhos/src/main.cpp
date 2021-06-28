@@ -14,7 +14,16 @@ using std::endl;
 /*
 so consegui chegar ate aki professor infelizmente mas pelo menos tentei e consegui fazer alguma coisinha depois de conseguir resolver o ambiente.
 
-sobre essa questao, nao consegui entender muito bem as entradas e saidas mas na minha opiniao a logica ta certa mas provavelmente nao devo ter entendido alguma coisa, o que entendi inicialmente foi que era pra somar os numeros entre m e n perdi muito tempo fazendo isso sem entender porque dava errado, ate que li denovo a questao e vi que era pra somente somar o m mais n numeros visinhos se o n for + ai seria os visinhos pra frente e se o n for negativo somar os n numeros anteriores. Porem nao consegui passar nos testes
+sobre essa questao, nao consegui entender muito bem as
+entradas e saidas mas na minha opiniao a logica ta certa
+mas provavelmente nao devo ter entendido alguma coisa, o
+que entendi inicialmente foi que era pra somar os numeros
+entre m e n perdi muito tempo fazendo isso sem entender
+porque dava errado, ate que li denovo a questao e vique era
+pra somente somar o m mais n numeros visinhos
+se o n for + ai seria os visinhos pra frente e se o n
+for negativo somar os n numeros anteriores. Porem nao
+consegui passar nos testes
 */
 
 
