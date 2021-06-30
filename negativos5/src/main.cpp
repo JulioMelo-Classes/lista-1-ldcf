@@ -7,6 +7,9 @@ using std::cout;
 using std::endl;
 const int SIZE = 5; // input size.
 
+/*
+blz
+*/
 int main(void)
 {
     vector<int> v;
@@ -16,7 +19,7 @@ int main(void)
         int x;
         cin >> std::ws >> x;
 
-        if(cin.eof())
+        if(cin.eof()) //eu deveria tirar pontos por essa indentação, que fique avisado...
         break;
 
         v.push_back(x);

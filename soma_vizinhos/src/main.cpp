@@ -26,7 +26,9 @@ for negativo somar os n numeros anteriores. Porem nao
 consegui passar nos testes
 */
 
-
+/*
+a lógica ainda não estava correta, mas vou considerar 30%
+*/
 int main(void)
 {
     vector<int> v;
@@ -45,10 +47,12 @@ int main(void)
     
             saida = m;
             proximo = saida +1;
-
-            for(int i=0; i<n; i++){
+            //vc tem que somar m + (m+1) + (m+2) ... + (m+n)
+            //vc estava somando m + m+1 + (m+(m+1)) + (m + m+1 + (m+(m+1))) + ...
+            for(int i=0; i<n-1; i++){ // como vc já tinha feito uma soma (quando faz saida = m), teria que somar um elemento à menos aqui
                 saida = saida + proximo;
-                proximo = saida +1;
+                //proximo = saida +1; //como vc já fez saida = saida + proximo, quando vc faz isso não está indo para o próximo depois de m (que seria m + 2), mas sim pra o próximo depois de saida;
+                proximo++; //correto seria apenas incrementar próximo
             }
 
             cout << saida << endl;                
